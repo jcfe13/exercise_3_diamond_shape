@@ -7,6 +7,7 @@ if n % 2 == 0:
 else:
     for i in range(n // 2 + 1):  # Looping for the upper part
         print(" " * (n // 2 - i) + "*" * (2 * i + 1))
-        
+
     for i in range(n // 2 - 1, -1, -1): # Looping for the lower part
         print(" " * (n // 2 - i) + "*" * (2 * i + 1))
+        
